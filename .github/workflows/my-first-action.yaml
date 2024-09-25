@@ -1,0 +1,11 @@
+name: my-first-name
+on:
+  push:
+    branches: [ main ]
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hallo
+        run: echo Hallo Ratingen
+      
